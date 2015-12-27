@@ -1,0 +1,21 @@
+2 regcourse functions one with days exceeding registration and one without days exceeding.
+Vigilance 3.16
+Registration in programme complete 3.06
+faith but dues not cleared 3.11
+faith and gradesheet withheld or no I grade 3.11
+faith and barred 3.11
+thingap of course 3.11
+normal registration following bulletin 3.12
+satisfy prereq 3.13-15
+prereq not satisfied but waived 
+not overprepared, not underprepared 3.18
+multiple registrations allowed 3.13
+
+exceptional which sees that if only 1 course is not cleared (in our example logic) and it has no bearing on the course to course to which it is a pre req. then allowed to register.
+
+All pre requisite conditions satisfied in pre req 3.15,16
+
+
+Queries like
+regcourse(ram,ps1,oncampus,1,Ans).
+true 

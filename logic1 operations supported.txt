@@ -1,0 +1,53 @@
+?- simplify(x*x,Y).
+Y = x^2
+
+?- simplify(x*x*x*2,Y).
+Y = x^3*2 
+
+?- simplify(2*x+3*x,Y).
+Y = 5*x 
+
+?- simplify(0+x,Y).
+Y = x 
+
+?- simplify(5*x^2+2*x^5,Y).
+Y = x^2* (5+2*x^3)
+
+?- simplify(5*x^2+2*x^2,Y).
+Y = 7*x^2
+
+?- simplify(x^0,Y).
+Y = 1 
+
+?- simplify(x/0,Y).
+Y = undefined 
+
+?- simplify(0/x,Y).
+Y = 0 
+
+ ?- simplify(7*x^2/5*x^3,Y).
+Y = 1.4*x^ -1 
+
+?- simplify(7*x^5*8*x^3,Y).
+Y = 56*x^8 
+
+?- equality(7*x^2, 7*x^2, Y).
+Y = 1.
+
+?- simplify(x^2*5+x^5*3,Y).
+Y = x^2* (5+3*x^3)
+
+simplify(5*x^2-3*x^5,Y).
+Y = x^2* (5-3*x^3)
+
+?- simplify(5*x^2-3*x^5+2*x^4,Y).
+Y = x^4* ((5-3*x^3)*x^ -2+2)
+
+?- simplify(x^6*4/5*x^2, Y).
+Y = 0.8*x^4 
+
+?- simplify(-4*x^6*5*x^2, Y).
+Y = -20*x^8
+
+
+
