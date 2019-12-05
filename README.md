@@ -58,7 +58,7 @@ Y = -20* x^8
 
 ## Express the academic regulations of BITS Pilani
 
-Rules 3.1 t0 3.20 (refer section-3 of the academic regulations) in prolog. Program answers possible queries on regulations such as
+Rules 3.1 to 3.20 (refer section-3 of the academic regulations) in prolog. Program answers possible queries on regulations such as
 
 1. Is a student eligible for doing PS course?
 2. Is a first degree student eligible for doing a higher degree course?
