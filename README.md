@@ -1,7 +1,7 @@
 # Prolog-Code
 
 
-## Simplifying algebraic expressions
+## logic1.pl: Simplifying algebraic expressions
 
 Simplify algebraic expressions to its normal form (an expression in which cannot be simplified by further application of algebraic identities).
 
@@ -56,7 +56,7 @@ Y = 0.8* x^4
 * simplify(-4* x^6* 5* x^2, Y).
 Y = -20* x^8
 
-## Express the academic regulations of BITS Pilani
+## logic2.pl: Express the academic regulations of BITS Pilani
 
 Rules 3.1 to 3.20 (refer section-3 of the academic regulations) in prolog. Program answers possible queries on regulations such as
 
